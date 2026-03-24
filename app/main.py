@@ -9,7 +9,7 @@ from loguru import logger
 from app import app
 
 
-DEFAULT_TITLE = "AmberDay"
+DEFAULT_TITLE = "PyWebview App"
 DEFAULT_DEV_FRONTEND = "http://localhost:5173"
 
 
