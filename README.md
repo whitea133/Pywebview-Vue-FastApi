@@ -74,7 +74,7 @@ Pywebview-Vue-FastAPI/
 ### 1. 克隆项目
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/whitea133/Pywebview-Vue-FastApi.git
 cd Pywebview-Vue-FastApi
 ```
 
@@ -101,6 +101,7 @@ uv sync
 前后端独立运行，支持热重载，适合开发调试。
 
 **终端 1 - 启动前端：**
+
 ```bash
 cd web
 npm run dev
@@ -108,6 +109,7 @@ npm run dev
 ```
 
 **终端 2 - 启动桌面端（开发模式）：**
+
 ```bash
 cd app
 uv run main.py --mode dev
@@ -194,20 +196,20 @@ uv run pyinstaller --onefile --windowed main.py
 
 ## 🧩 技术栈
 
-| 层级 | 技术 | 版本 | 说明 |
-|------|------|------|------|
-| **后端** | FastAPI | ^0.120 | 高性能 Web 框架 |
-| | Uvicorn | ^0.38 | ASGI 服务器 |
-| | Pywebview | ^6.1 | 桌面应用封装 |
-| | Loguru | ^0.7 | 日志记录 |
-| **前端** | Vue | ^3.5 | 渐进式框架 |
-| | Vue Router | ^4.6 | 路由管理 |
-| | Pinia | ^3.0 | 状态管理 |
-| | TypeScript | ~5.9 | 类型安全 |
-| | Vite | ^7.1 | 构建工具 |
-| **UI** | Tailwind CSS | ^4.1 | 原子化 CSS |
-| | Reka UI | ^2.6 | 无头组件库 |
-| | Lucide Vue | ^0.548 | 图标库 |
+| 层级           | 技术         | 版本   | 说明            |
+| -------------- | ------------ | ------ | --------------- |
+| **后端** | FastAPI      | ^0.120 | 高性能 Web 框架 |
+|                | Uvicorn      | ^0.38  | ASGI 服务器     |
+|                | Pywebview    | ^6.1   | 桌面应用封装    |
+|                | Loguru       | ^0.7   | 日志记录        |
+| **前端** | Vue          | ^3.5   | 渐进式框架      |
+|                | Vue Router   | ^4.6   | 路由管理        |
+|                | Pinia        | ^3.0   | 状态管理        |
+|                | TypeScript   | ~5.9   | 类型安全        |
+|                | Vite         | ^7.1   | 构建工具        |
+| **UI**   | Tailwind CSS | ^4.1   | 原子化 CSS      |
+|                | Reka UI      | ^2.6   | 无头组件库      |
+|                | Lucide Vue   | ^0.548 | 图标库          |
 
 ---
 
