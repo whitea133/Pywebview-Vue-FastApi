@@ -55,7 +55,7 @@ Pywebview-Vue-FastAPI/
 │   ├── 📄 package.json              # Node.js 依赖
 │   └── 📄 vite.config.ts            # Vite 配置
 │
-├── 📂 webdist/                      # 前端构建产物（供静态模式加载）
+├── 📂 webdist/                      # 前端构建产物（供静态模式加载，构建后需手动移动为app/static/）
 ├── 📂 tests/                        # 后端测试
 │   └── 📄 test.py
 └── 📄 README.md                     # 本文件
