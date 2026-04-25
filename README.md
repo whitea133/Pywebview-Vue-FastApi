@@ -63,6 +63,13 @@ Pywebview-Vue-FastAPI/
 
 ---
 
+## 📼 项目示例（仅供参考）
+- [files-all-in-one](https://github.com/whitea133/files-all-in-one)：用于整理、标注、备份本地文件的跨平台工具。
+
+---
+
+
+
 ## 🚀 快速开始
 
 ### 环境要求
